@@ -1,4 +1,10 @@
 # Auto-docker-agent-parseltongue
+2025, "purifying" your interaction through an automated, mesh-style environment is achieved by using Docker Sandboxes and Model Context Protocol (MCP) tools. This setup isolates the agent's execution within a secure container (the "Mech shell") and wraps the UI in a "Dacified" (Data-Anonymized and Cleaned) layer.
+1. The "Dacified" Mesh Setup
+To create an "auto-Docker" mesh that hides the internal "guts" of the code and purifies the interaction, you can use Docker cagent (released late 2025) or the Docker GenAI Stack.
+Isolation (The Shell): Every session runs in an ephemeral, hardened Docker container that drops all privileges.
+Mesh UI (The Look): Use Streamlit or React-based interfaces (like those used in Docker Model Runner demos) to provide a clean, visual "mesh" that abstracts the raw terminal.
+Purification: The agent uses "afterSend" hooks to automatically clean up and summarize chat history, ensuring no sensitive data persists in the memory window beyond what is necessary.
 Running the "Mech" Purifier
 To ignite this "Purified Shell" in your 2025 environment, run the following "String of Three" command:
 Spin up the Mesh: docker compose --profile hardened up --build.
